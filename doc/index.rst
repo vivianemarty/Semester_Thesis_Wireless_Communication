@@ -17,7 +17,7 @@ My Handle Class
 ---------------
 This is the handle class definition.
 
-.. module:: bla_test
+.. module:: extracting_data
 .. autofunction:: bla_function()
 :func:`bla_function` is very helpful
 
