@@ -16,7 +16,7 @@ import os
 
 
 # -- Project information -----------------------------------------------------
-
+autodoc_mock_imports = ['_tkinter']
 project = 'SEMESTER_THESIS'
 copyright = '2020, VIVIANE'
 author = 'VIVIANE'
