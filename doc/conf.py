@@ -23,6 +23,8 @@ author = 'VIVIANE'
 
 
 # -- General configuration ---------------------------------------------------
+# tip from web: https://github.com/readthedocs/readthedocs.org/issues/2569
+master_doc = 'index'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -30,8 +32,7 @@ author = 'VIVIANE'
 extensions = [
 'sphinx.ext.viewcode', 'sphinxcontrib.matlab', 'sphinx.ext.autodoc'
 ]
-# tip from web: https://github.com/readthedocs/readthedocs.org/issues/2569
-master_doc = 'index'
+
 
 # matlab source code
 matlab_src_dir = os.path.abspath('..')  # MATLAB
