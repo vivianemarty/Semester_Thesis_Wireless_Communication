@@ -25,6 +25,8 @@ author = 'VIVIANE'
 # -- General configuration ---------------------------------------------------
 # tip from web: https://github.com/readthedocs/readthedocs.org/issues/2569
 master_doc = 'index'
+# tip from web: https://stackoverflow.com/questions/57135533/sphinx-docs-builds-fail-on-readthedocs-for-private-github-repository
+source_suffix = ['.rst', '.md']
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
