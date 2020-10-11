@@ -7,19 +7,43 @@ Welcome to the Documentation of my Thesis!
 ===========================================
 
 
-Data Sets
-=========
-Hier should follow a short description of the data set.
+Datasets
+========
 
-:mod:`test_data` is a really cool module.
+Discription of the Datasets
+---------------------------
+I will add a short description of the datasets structure here.
 
-My Handle Class
----------------
-This is the handle class definition.
+The :mod:`extracting_data` module provides the functionality of extracting parts of the dataset.
 
+Extracting Data from Dataset
+----------------------------
+Functions called in this context
+++++++++++++++++++++++++++++++++
 .. module:: extracting_data
-.. autofunction:: bla_function()
-:func:`bla_function` is very helpful
+.. autofunction:: get_posture_indices()
+
+Dataset Visualization
+======================
+
+The :mod:`data_visualization` module provides the functionality of visualizing (parts of) the dataset to generate more insights.
+
+Visualizing a Selection of Postures
+-----------------------------------
+
+.. module:: data_visualization
+.. autoscript:: plotting_framework_advanced
+
+The script :scpt:`plotting_framework_advanced` calls the following function(s):
+
+* :func:`plot_as_histogram` to generate a histogram
+
+Functions called in this context
+++++++++++++++++++++++++++++++++
+
+.. module:: data_visualization
+.. autofunction:: plot_as_histogram()
+
 
 Indices and tables
 ==================
